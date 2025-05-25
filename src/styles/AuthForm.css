@@ -1,0 +1,123 @@
+.auth {
+    flex: 1 1 55%;
+    padding: 3.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth h2 {
+    margin: 0 0 2rem;
+    font-size: 2rem;
+    color: #29454c;
+}
+
+.field {
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+.field svg {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+ pointer-events: none;
+  z-index: 2;
+}
+
+.field input {
+    width: 100%;
+    padding: 0.9rem 0.9rem 0.9rem 2.8rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.field input:focus {
+    border-color: #8969af;
+    outline: none;
+}
+
+.auth__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4rem 0 1.2rem;
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.remember input {
+    margin-right: 6px;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auth__links {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: .85rem;
+    padding-bottom: .5rem;
+}
+
+.auth__links a {
+    color: #8969af;
+    text-decoration: none;
+}
+
+.auth__links a:hover {
+    text-decoration: underline;
+}
+.field svg { left:14px; }
+.alt {
+  display: grid;
+  gap: 0.6rem;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.7rem 0 1.1rem;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+.divider span {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+.field { display:block; position:relative; margin-bottom:1.2rem; }
+
+.field .icon {
+    position:absolute;
+    left:14px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#9ca3af;
+    pointer-events:none;
+}
+
+.field input {
+    width:100%;
+    padding:0.9rem 0.9rem 0.9rem 2.8rem;
+    border:1px solid #e5e7eb;
+    border-radius:10px;
+    font-size:1rem;
+
+    &::-ms-reveal,
+    &::-webkit-credentials-auto-fill-button,
+    &::-webkit-textfield-decoration-container {
+        display:none!important;
+    }
+}
