@@ -13,16 +13,16 @@
       margin: 0 0 1.75rem;
 }
 
-.branding__title{
-    line-height:1.25;
-    max-width:20ch;
-    min-height:3.6rem;
+.branding__title {
+    font-size: 2.6rem;
+    margin: 0 0 1rem;
 }
 
-.branding__subtitle{
-    line-height:1.6;
-    max-width:28ch;
-    min-height:5.2rem;
+.branding__subtitle {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    max-width: 28ch;
 }
 
 .branding__cta {
